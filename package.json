@@ -1,0 +1,29 @@
+{
+  "name": "website-tech-stack-analyzer",
+  "version": "1.0.0",
+  "description": "Chrome extension to analyze the tech stack of websites",
+  "main": "popup.js",
+  "scripts": {
+    "build": "node build.js",
+    "prepare-github": "cp manifest.clean.json manifest.json",
+    "prepare-dev": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chuskibot/TechStack_Analyzer.git"
+  },
+  "keywords": [
+    "chrome-extension",
+    "tech-stack",
+    "web-technologies"
+  ],
+  "author": "C78",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chuskibot/TechStack_Analyzer/issues"
+  },
+  "homepage": "https://github.com/Chuskibot/TechStack_Analyzer#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+} 
